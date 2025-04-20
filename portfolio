@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.2" />
+  <title>Blesston Samuel | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✅ Welcome Page -->
+  <div id="welcome-page">
+    <h1>Welcome to My Portfolio</h1>
+    <button id="enter-btn">Enter</button>
+  </div>
+
+  <!-- ✅ Header -->
+  <header>
+    <h1>Blesston Samuel</h1>
+    <nav>
+      <ul>
+        <li><a href="#about-education">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ✅ Profile Picture and CV -->
+  <div class="profile-picture">
+    <img src="images/pic3.jpg" alt="Profile Picture" />
+    <br />
+    <a href="files/Blesston_CV.pdf" download>
+      <button class="download-cv-button">Download CV</button>
+    </a>
+  </div>
+
+  <!-- ✅ About and Education -->
+  <section id="about-education">
+    <div class="about-box">
+      <h2>About Me</h2>
+      <p>
+        Hey there! I’m a curious and driven developer with a love for clean code, clever problem-solving, and continuous learning. I’m currently exploring the world of Python and object-oriented programming, and I enjoy turning concepts into real, working solutions.
+        With a strong foundation in logic and a growing toolkit of development skills, I’m on a mission to build meaningful, user-friendly applications. I believe in learning by doing, growing through challenges, and always staying curious. 
+        Let’s connect and create something amazing!
+      </p>
+    </div>
+
+    <div class="education-box">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Bachelor of Engineering in Computer Science</strong><br />Sathyabama Institute of Science and Technology – 2021 to Present</li>
+        <li><strong>Margoschis Hr Sec School</strong><br />12th – Graduated in 2021</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ✅ Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>VISIONARY TOUCH</h3>
+      <p>Visionary Touch is an Android-based smart vision system designed to assist the visually challenged in recognizing currencies and tablets through intuitive touch and audio feedback. Developed with accessibility at its core, the app leverages user-centered design and test-driven development to deliver a seamless and empowering experience, enhancing everyday independence.</p>
+    </div>
+
+    <div class="project">
+      <h3>Movie Booking Application (UI/UX)</h3>
+      <p>Designed seamless web and mobile interfaces with Figma for collaborative design. Implemented secure payment gateways and real-time seat availability updates. Integrated a reward system enabling users to earn coins for discounts via reviews. Added in-app notifications for new releases and offers, along with social media sharing. Paid meticulous attention to visual design elements like color palettes, typography, and iconography.</p>
+    </div>
+
+    <div class="project">
+      <h3>My Portfolio Website</h3>
+      <p>This is my personal site which i developed to build myself and to showcase my projects and skills using HTML, CSS, and animations.</p>
+    </div>
+
+    <div class="project">
+      <h3>Java-Based Library Management System (LMS)</h3>
+        <p>Database Design: Optimized database tables for customer profiles, book inventory, and transactions. CRUD Operations: Implemented functionalities for creating, reading, updating, and deleting customer, book, and
+        transaction data. Authentication and Access Control: Integrated secure login mechanisms and role-based access control to ensure
+        data security. Testing and Documentation: Conducted thorough testing to identify and resolve issues, and provided clear documentation for user guidance</p>
+    </div>
+  </section>
+
+  <!-- ✅ Skills -->
+  <section id="Skills">
+    <h2 class="skills-heading">Skills</h2>
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Figma</li>
+      <li>JavaScript</li>
+      <li>MySQL</li>
+    </ul>
+  </section>
+
+  <!-- ✅ Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:blesskutty@gmail.com">blesskutty@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Blesston7" target="_blank">github.com/Blesston7</a></p>
+    <p>Phone: +91 8270671459</p>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>© 2025 Blesston</p>
+  </footer>
+
+  <!-- ✅ JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
